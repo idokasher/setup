@@ -3,3 +3,11 @@
 - Go to Sound --> Sound Effects 
 - Set Alert volume to "off"
 
+# Update hostname
+- Edit /etc/hostname and /etc/hosts by replacing localhost.localdomain with the new hostname
+
+# Add tilde for X1 carbon
+- Edit /usr/share/X11/xkb/symbols/pc
+- Add: key <ESC> { [ grave, asciitilde ] };
+
+
