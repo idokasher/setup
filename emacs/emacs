@@ -1,0 +1,9 @@
+(set-background-color "black")
+(set-foreground-color "white")
+
+(defun other_window_backwards nil
+ (interactive)
+ (other-window -1))
+
+(global-set-key [C-tab] 'other-window)
+(global-set-key [C-S-iso-lefttab] 'other_window_backwards)
