@@ -1,0 +1,5 @@
+# Disable sound notification
+- Go to Applications --> System Tools --> Settings
+- Go to Sound --> Sound Effects 
+- Set Alert volume to "off"
+
